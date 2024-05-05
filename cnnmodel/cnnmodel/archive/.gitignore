@@ -1,0 +1,18 @@
+# TensorFlow and Keras model files
+*.h5
+
+# Model checkpoints
+model_checkpoints/
+
+# TensorBoard logs
+logs/
+
+# Model checkpoints saved during training
+checkpoints/
+
+# Temporary files or directories
+tmp/
+temp/
+
+# Dataset directory
+Indian-monuments/images/

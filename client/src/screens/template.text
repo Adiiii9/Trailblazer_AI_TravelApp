@@ -1,0 +1,39 @@
+import { StyleSheet, Text, View, FlatList, ScrollView, TouchableOpacity } from 'react-native'
+import { SafeAreaView } from 'react-native'
+import React from 'react'
+
+const Netflix=()=>{
+  return (
+    <SafeAreaView>
+     <View>
+      <Text>N</Text>
+    </View>
+    </SafeAreaView>
+   
+  )
+}
+
+
+const styles = StyleSheet.create({
+  mainContainer:{},
+  container1:{}, 
+  container2:{},
+  text1:{},
+  text2:{}
+})
+
+const {mainContainer, container1, container2, text1,text2}=styles
+export default Netflix
+
+
+
+
+
+//package
+
+npm i react-native-vector-icons react-native-config @rneui/themed appwrite
+
+// Note to navigate 
+
+jidar navigate krna hai woh screens ke andr
+aur jidr se karna woh component (use useNavigation())
